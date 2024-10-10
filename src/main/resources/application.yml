@@ -7,11 +7,17 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: example@gmail.com
-    password: #################
+    username: sample@gmail.com
+    password: '#########'
     properties:
       mail:
         smtp:
           auth: true
           starttls:
             enable: true
+
+excelBodyPath: 'azizEmail.txt'
+excelFilePath: 'emails.xlsx'
+linkedInUrl: 'https://www.linkedin.com/in/aziz22/'
+githubUrl: 'https://github.com/mdaziz22'
+filePath: 'src/main/resources/Md Aziz Resume.pdf'
